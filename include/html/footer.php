@@ -14,7 +14,8 @@ if ($pPageIsPublic && (ereg('(log(in|out)|user_password)\.php',$_SERVER['PHP_SEL
         echo '<p class="tznError"><b>'.$GLOBALS['langMenu']['warning'].':</b> '.$GLOBALS['langMenu']['warning_install'].'</p>';
     }
     ?>
-        <a href="http://www.taskfreak.com">TaskFreak! multi user</a> v<?php echo FRK_VERSION; ?> - Released on <?php echo FRK_VERSION_RELEASE; ?> under GNU General Public License
+        <a href="http://www.taskfreak.com">TaskFreak! multi user</a> v<?php echo FRK_VERSION; ?> - Released on <?php echo FRK_VERSION_RELEASE; ?> under GNU General Public License<br>
+        Source tracked on <a href="https://github.com/kremlinkev/taskfreak">github</a>
     </div>
 </div>
 <?php
